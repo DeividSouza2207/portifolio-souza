@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0; 
+    
+}
+/*Corpo da página*/
+body{
+    background-color:cadetblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+/*Estilo das letras*/
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font: size 100px;
+}
+h2{
+    font-weight: bolder;
+}
+h3{
+    font-weight: bold;
+}
+h4{
+    font-weight: lighter;
+}
+
+/*Estilização das listas com os links*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    display:inline-flex;
+}
+li{
+    margin-right: 2px;
+}
+/*Estilo do cabeçalho*/
+#header{
+    background-color:navy;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+#descricoes{
+    width: 900px;
+    float: none;
+}
+.descricao{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: justify;
+}
+#formacoes{
+    width: 900px;
+    float: none;
+}
+.formacao{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+#trabalhos{
+    width: 900px;
+    float: none;
+ 
+}
+.trabalho{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+#contatos{
+    width: 900px;
+    float:none
+}
+.contato{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+/*Estilo nos links para que se pareçam com botões*/
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.botao:hover{
+    background-color: white;
+    color:#008CBA;
+}
+.botao2{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.botao2:hover{
+    background-color: white;
+    color:#008CBA;
+}
+.botao3{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.botao3:hover{
+    background-color: white;
+    color:#008CBA;
+}
+
+.botao4{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.botao4:hover{
+    background-color: white;
+    color:#008CBA;
+}
+#footer{
+    background-color:navy;
+    color: white;
+    padding: 20px;
+    text-align:center;
+}
